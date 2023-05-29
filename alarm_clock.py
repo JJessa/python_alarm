@@ -26,8 +26,8 @@ def alarm(seconds):
     
     playsound("my_alarm.mp3")
     
-minutes = int(input("Cuántos minutos para que suene la alarma: "))
-seconds = int(input("Cuántos segundos para que suene la alarma: "))
+minutes = int(input("How many minutes for the alarm to play: "))
+seconds = int(input("How many seconds for the alarm to play: "))
 total_seconds = minutes * 60 + seconds
       
 alarm(total_seconds)
